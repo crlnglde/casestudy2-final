@@ -1,0 +1,65 @@
+/* header.css */
+header.fixed-top {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.custom-navbar {
+  background-color: #0A57A2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+}
+
+.custom-navbar .nav-link .fa {
+  color: white !important;
+}
+
+.custom-navbar .dropdown-menu {
+  background-color: #0A57A2;
+}
+
+.custom-navbar .dropdown-item {
+  color: white !important;
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: #0569C1; /* Slightly darker shade for hover effect */
+}
+
+/* Add style for active link */
+.custom-navbar .nav-item.active .nav-link {
+  color: #1d2ae4 !important; /* Change to your preferred active color */
+}
+
+.custom-navbar .nav-item.active .nav-link .fa {
+  color: #f8b400 !important; /* Change color for icon in active item */
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #074185; /* Dark background color */
+  color: #ffffff; /* Text color */
+  padding: 20px 0; /* Top and bottom padding */
+  text-align: center; /* Center-align text */
+}
+
+.footer a {
+  color: #fff; /* Link color */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.text-muted {
+  color: #c2c2c2
+}

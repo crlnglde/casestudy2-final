@@ -1,0 +1,83 @@
+.orders-search-container {
+    margin: 30px;
+    height: 100%;
+}
+
+.jumb {
+    background-image: url('../images/9.png');
+    background-color: #a7a7a7; /* Light gray background for jumbotron */
+    padding: 50px 0; /* Add padding to top and bottom */
+    margin-top: 200px; /* Add margin to the top */
+    height:650px;
+}
+
+.jumb h1{
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 0px;
+}
+
+.jumb h3{
+    margin-top: -43px;
+    font-size: 20px;
+}
+
+.search-bar {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.search-in {
+    flex: 1;
+    padding: 10px;
+    font-size: 30px;
+    border: 3px solid #0A57A2;
+    border-radius: 10px;
+    margin-right: 10px;
+}   
+
+.search-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #0A57A2;;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 60px;
+}
+
+thead{
+    font-size: 25px;
+}
+
+.search-results {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.search-results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.search-results-table th,
+.search-results-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.search-results-table td{
+    font-size: 20px;
+}
+
+.no-results-message {
+    font-style: italic;
+    color: #999;
+    margin-top: 10px;
+}

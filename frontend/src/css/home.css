@@ -1,0 +1,119 @@
+/* home.css */
+.jumbotron {
+
+  background-image: url('../images/7.png');
+  background-color: #f8f9fa; /* Light gray background for jumbotron */
+  padding: 50px 0; /* Add padding to top and bottom */
+  margin-top: 100px; /* Add margin to the top */
+  height:800px;
+  
+}
+
+.jumbotron h1 {
+  font-size: 3rem; /* Larger font size for heading */
+  margin-bottom: 10px; /* Add margin at the bottom */
+  text-align: left;
+  margin-left: 80px;
+  padding-top: 180px;
+}
+
+.jumbotron p {
+  font-size: 1.5rem; /* Larger font size for paragraph */
+  margin-bottom: 30px; /* Add margin at the bottom */
+  text-align: left;
+  margin-left: 80px;
+}
+
+.jumbotron a.btn-primary {
+  font-size: 1.25rem; /* Larger font size for button */
+  background-color: #074185;
+}
+
+.jumbotron a.btn-primary:hover{
+  color: #000000; /* Text color turns blue */
+  background-color: #56AAF0;
+}
+
+.chart-container {
+  margin-bottom: 0; /* Add margin at the bottom of each chart container */
+  margin-right: 0;
+}
+
+
+.card-title {
+  font-size: 1.5rem; /* Larger font size for card title */
+}
+
+.card-text {
+  font-size: 1.25rem; /* Larger font size for card text */
+}
+
+.lower-portion {
+  padding-bottom: 100px; /* Add padding to the bottom */
+}
+
+/* home.css */
+.home-card {
+  border: 1px solid #ccc; /* Add a border to the card */
+  border-radius: 6px; /* Add border radius for rounded corners */
+  margin-bottom: 30px;
+  margin-top: 30px; /* Add margin at the bottom of each card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  max-width: 80%; /* Set maximum width for the card */
+ margin-left: 35px;
+ background-color: #0A57A2;
+}
+
+.h-card-title {
+  font-size: 25px; /* Font size for card title */
+  margin-bottom: 10px; /* Add margin at the bottom of the card title */
+  color: #ffffff;
+}
+
+.h-card-text {
+  font-size: 18px; /* Font size for card text */
+  color: #ffffff;
+}
+
+.h-card-body {
+  padding: 20px; /* Add padding inside the card body */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+  transition: box-shadow 0.3s ease; /* Add smooth transition effect */
+}
+
+.row{
+  padding-left:150px;
+  margin-top: -20px;
+  margin-left: -100px;
+  margin-top: 50%;
+}
+
+.rowww {
+  padding-left: 1082px;
+  margin-top: -468px;
+  margin-left: 0px;
+}
+
+.col-md-4 {
+  padding-top: 0;
+  flex: 0 0 auto;
+  width: 400px;
+  height: 110px;;
+
+  margin-left: 15%;
+}
+
+.col-md-6 { 
+  padding-top: 0%;
+  flex: 0 0 auto;
+  
+  width: 50%;
+}
+h2 {
+  font-size: 2rem;
+  padding-top: 1%;
+
+}

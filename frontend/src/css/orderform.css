@@ -1,0 +1,174 @@
+
+/* Style for form container */
+
+button[type="submit"] {
+    width: 150px;
+    padding: 25px;
+    background-color: #07325f;
+    color: #ffffff;
+    margin: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; /* Adds smooth transitions */
+}
+
+button[type="submit"]:hover {
+    background-color: #3c6a72; /* Slightly darker shade for hover effect */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.no-container {
+    width: 40%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #0a56a28b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  /* Style for form groups */
+  .fgg {
+    margin-bottom: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  
+  /* Style for labels */
+  .fgg label {
+    display: block;
+    font-weight:bolder;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for input fields */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for select fields */
+  .form-control-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for textarea */
+  .form-control-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+  
+  
+  /* Style for disabled input */
+  .form-control:disabled {
+    background-color: #f2f2f2;
+    color: #777;
+  }
+
+  h1 {
+    padding-top: 0px;
+    color: #07325f;
+    margin-bottom: 50px;
+}
+
+/* Style for receipt modal */
+.receipt-modal {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .receipt-modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .receipt-modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .receipt-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .receipt-modal-title {
+    font-size: 20px;
+    color: #07325f;
+  }
+  
+  .receipt-modal-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #aaa;
+  }
+  
+  .receipt-modal-body {
+    margin-bottom: 20px;
+  }
+  
+  .receipt-modal-item {
+    margin-bottom: 10px;
+  }
+  
+  .receipt-modal-label {
+    font-weight: bold;
+    color: #07325f;
+  }
+  
+  .receipt-modal-value {
+    color: #333;
+  }
+  
+  .receipt-modal-footer {
+    text-align: right;
+  }
+  
+  .receipt-modal-button {
+    padding: 10px 20px;
+    background-color: #07325f;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .receipt-modal-button:hover {
+    background-color: #3c6a72;
+  }
+  
+
